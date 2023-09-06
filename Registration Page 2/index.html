@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form action="">
+        <!-- To put the form into a field use "fieldset" -->
+        <fieldset>
+            <!-- To Include something inside the field border -->
+            <legend>Form</legend>
+        
+        <!-- HTML5 restrict use of "Placeholder" instead use javascript -->
+        First Name <br>
+        <input type="text" name="first_name" placeholder="Write your first name">
+        <br><br>
+
+        Middle Name <br>
+        <input type="text" name="Middle_name" placeholder="Write your middle name"><br><br>
+    
+        <!--"Value" used for already inputted word-->     
+        Last Name <br>
+        <input type="text" name="last_name" value="Nahin"><br><br>
+
+        <!-- For Email input "email" -->
+        Email : <br> <input type="email"> <br><br>
+
+        <!-- Password -->
+        Password : <br>
+        <input type="password"> <br><br>
+
+        <!-- Radio Button aka Gender Selection -->
+        <!-- "name" should be same -->
+        <!-- "Value" should be different but can be used later when for development -->
+        <!-- "Checked" is Default Gender -->
+        Gender :
+        <input type="radio" name="gender" value="Male" checked> Male 
+        <input type="radio" name="gender" value="Female"> Female <br><br>
+
+        <!-- "Selection" Option -->
+        <!-- "Selected" is by default Option -->
+        Country :
+        <select name="Country">
+            <option>Bangladesh</option>
+            <option>Bhutan</option>
+            <option>India</option>
+            <option selected>Nepal</option>
+        </select>
+
+        <!-- Input Type will be "date" -->
+        <!-- For Minimum Date use "min"-->
+        <!-- For Maximum Date use "max" -->
+        Birthdate :
+        <input type="date" min="2000-01-01" max="2022-04-30">
+
+        <!-- For color input "color" -->
+        Eye Color : <input type="color">
+
+        <!-- For Only Numeric use "Number" -->
+        Age :
+        <input type="number"> <br> <br>
+
+        <!-- UPLOAD -->
+        Upload File <input type="file">
+        <br><br>
+
+        <!-- Text Area -->
+        Enter Your Address : <br>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Write Something"></textarea> <br><br>
+
+        <!-- Submit Button -->
+        <input type="submit">
+        <!--Reset Button-->
+        <input type="Reset" name="" id="">
+        
+    </fieldset>
+    </form>
+    <!-- "value" option is for development is no use of design-->
+    <!-- "Checked" X "Selected" is different -->
+
+
+
+
+
+
+
+
+
+</body>
+</html>
